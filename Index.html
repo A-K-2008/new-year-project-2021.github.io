@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Happy New Year!</title>
+
+
+	<style type="text/css">
+	
+
+
+*{
+
+	padding: 0;
+	margin: 0;
+}
+
+		body{
+
+
+
+
+    
+
+		}
+
+@keyframes ani{
+
+
+	
+0%{background-image: url("img.jpg");}
+33%{background-image: url("image.jpg");}
+66%{background-image: url("image1.png");}
+100%{background-image: url("img.jpg");}
+
+}
+
+
+h1{
+
+	text-align: center;
+	animation: opa 10s infinite;
+	font-size: 45px;
+	z-index: 1;
+}
+
+
+
+@keyframes opa{
+
+	0%{color:red;}
+	25%{color:white;}
+    50%{color:rgb(212,175,55);}
+     75%{color:rgb(144,238,144);}
+     100%{color:red;}
+
+}
+
+
+
+#main{
+
+	width:100%;
+height:100vh;
+
+
+
+background-size:100% 100%;
+background-repeat:no-repeat;
+			animation: ani 8s infinite;
+		
+			position: relative;
+			padding:0;
+			margin: 0;
+			
+
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+
+}
+
+#color-over{
+
+	width: 100%;
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;
+	background:white;
+	position: absolute;
+	opacity: 0.3;
+	z-index: 1;
+}
+
+#sparkle{
+
+
+background-image: url("gif.gif");
+width: 100%;
+height: 100vh;
+position: absolute;
+z-index:1;
+opacity: 0.6;
+}
+
+	</style>
+
+
+</head>
+<body>
+
+<div id="main">
+	<h1>Happy New Year!</h1>
+<div id="sparkle">
+
+<div id="color-over">
+</div>
+
+
+</div>
+</div>
+
+
+</body>
+</html>
